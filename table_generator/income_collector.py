@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# !/usr/bin/env python
 import csv
 
 median_income_by_country_code = {}

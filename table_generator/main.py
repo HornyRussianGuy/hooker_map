@@ -28,7 +28,8 @@ for i in range(0, len(list_of_countries_by_hooker_index), GROUP_SIZE):
     min_index = sublist[0][-1]
     max_index = sublist[-1][-1]
     print(tabulate(sublist, headers=[
-        'Country', 'Median income per year', 'Median hooker rate per hour', 'Hooker Index ({} - {})'.format(
+        'Country', 'Median net income per year (EUR)', 'Median hooker rate per hour (EUR)',
+        'Hooker Index ({} - {})'.format(
             int(round(min_index)), int(round(max_index)),
         )
     ]))
