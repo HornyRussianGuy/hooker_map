@@ -16,3 +16,7 @@ services:
       - mongodb
 volumes:
   mongo_data:
+networks:
+  default:
+    external:
+      name: hooker_map

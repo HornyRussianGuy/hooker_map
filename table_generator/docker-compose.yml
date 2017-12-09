@@ -1,0 +1,12 @@
+version: '2'
+services:
+  table_generator:
+    build: .
+    environment:
+      - MONGO_HOST=mongodb
+      - MONGO_PORT=27017
+      - MONGO_NAME=hooker_map
+networks:
+  default:
+    external:
+      name: hooker_map
