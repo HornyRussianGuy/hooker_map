@@ -4,7 +4,7 @@
 
 ## Story
 
-I am a long time subscriver of [r/MapPorn]() on Reddit.
+I am a long time subscriver of [r/MapPorn](https://www.reddit.com/r/MapPorn/) on Reddit.
 Several days ago I saw a post titled
 [
   "How many times per month you can afford hooker with your country's average monthly wage
