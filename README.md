@@ -35,4 +35,8 @@ Source code of scrapper and table generator on GitHub: https://github.com/HornyR
 
 ## Possible pitfalls
 
+After I finishing scrapping, I've realised that one of 3 websites gave me most of the data.
+
+For some countries there is huge difference in average rates at local websites (on the local language) and at foreign websites (in English). Hookers expect foreigners to pay much more. It skews the data.
+
 ## Running
