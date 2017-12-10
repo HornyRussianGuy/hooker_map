@@ -40,3 +40,20 @@ After I finishing scrapping, I've realised that one of 3 websites gave me most o
 For some countries there is huge difference in average rates at local websites (on the local language) and at foreign websites (in English). Hookers expect foreigners to pay much more. It skews the data.
 
 ## Running
+
+0. If you want to run this project you will need `docker` and `docker-compose.`
+
+1. Create a network: `docker network create hooker_map`
+
+2. Run momgodb and scrapper in background: ```
+cd data_collector
+docker-compose up -d
+```
+
+3. Wait for some time.
+
+4. Generate the table:
+```
+cd table_generator
+docker-compose up
+```
