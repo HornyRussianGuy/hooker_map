@@ -45,7 +45,8 @@ For some countries there is huge difference in average rates at local websites (
 
 1. Create a network: `docker network create hooker_map`
 
-2. Run momgodb and scrapper in background: ```
+2. Run momgodb and scrapper in background:
+```
 cd data_collector
 docker-compose up -d
 ```
