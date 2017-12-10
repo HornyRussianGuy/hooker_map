@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 import csv
 
+from eu_codes import eu_to_alpha_2
+
 median_income_by_country_code = {}
 
 with open('ilc_di03.tsv') as tsv_file:
@@ -10,6 +12,8 @@ with open('ilc_di03.tsv') as tsv_file:
         if len(keys) >= 5:
             if keys[0] == 'TOTAL' and keys[1] == 'T' and keys[2] == 'MED_E' and keys[3] == 'EUR':
                 country_code = keys[4]
+                if country_code in eu_to_alpha_2:
+                    country_code = eu_to_alpha_2[country_code]
                 country_median_income = None
                 for col in row[1:]:
                     try:

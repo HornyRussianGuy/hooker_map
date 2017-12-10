@@ -5,7 +5,7 @@ from tabulate import tabulate
 from income_collector import median_income_by_country_code
 from rates_collector import median_rates_by_country_code
 
-GROUP_SIZE = 8
+GROUP_SIZE = 6
 
 list_of_countries_by_hooker_index = []
 
