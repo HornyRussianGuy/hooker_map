@@ -24,7 +24,14 @@ Median net income data is from Eurostat: http://ec.europa.eu/eurostat/web/gdp-an
 
 Median hooker rate per hour is scrapped from various websites.
 
+Source code of scrapper and table generator on GitHub: https://github.com/HornyRussianGuy/hooker_map
+
+
 ## Results
+
+[Results table on Gist](https://gist.github.com/HornyRussianGuy/273c9057e2bab307db62175bd098aee4)
+
+[Results map on Imgur](https://i.imgur.com/V17vrHg.png) (tha map is created via [mapchart.net](https://mapchart.net/europe.html))
 
 ## Possible pitfalls
 
